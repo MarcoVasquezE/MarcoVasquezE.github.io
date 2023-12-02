@@ -1,357 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marco Vasquez E - Personal Portfolio</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Vasquez E</title>
 
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/logo.ico"
+      type="image/x-icon">
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+  </head>
 
-<body>
+  <body>
 
-  <!--
+    <!--
     - #MAIN
   -->
 
-  <main>
+    <main>
 
-    <!--
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+        <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Marco Vasquez E" width="80">
-        </figure>
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Marco Vasquez E"
+              width="80">
+          </figure>
 
-        <div class="info-content">
-          <h1 class="name" title="Marco Vasquez E">Marco Vasquez E</h1>
+          <div class="info-content">
+            <h1 class="name" title="Marco Vasquez E">Marco Vasquez E</h1>
 
-          <p class="title">Lead Cloud ML Developer</p>
+            <p class="title">Lead Cloud ML Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <div class="separator"></div>
 
-      </div>
+          <ul class="contacts-list">
 
-      <div class="sidebar-info_more">
+            <li class="contact-item">
 
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:me@marcovasquez.com" class="contact-link">me@marcovasquez.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+506 8667-1271</a>
-            </div>
-
-          </li>
-
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>San Jose, CR</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/marco-v%C3%A1squez-e-22bb153b/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.kaggle.com/marcovasquez" class="social-link">
-              <iconify-icon icon="devicon:kaggle-wordmark"></iconify-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a seasoned Developer Lead and Machine Learning Cloud Engineer with a passion for crafting innovative solutions at the intersection 
-            of cutting-edge technologies. Over 13+ years experienced, I have honed my skills in orchestrating cloud environments, implementing robust Kubernetes 
-            setups, and leveraging both on-premises and cloud infrastructure. 
-          </p>
-
-          <p>
-            My expertise extends to various open-source technologies, and I thrive in dynamic, collaborative environments where I can push the boundaries 
-            of what's possible.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Kubernetes and Cloud Orchestration</h4>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-                <p class="service-item-text">
-                  Spearheading the design and implementation of scalable and resilient Kubernetes clusters for seamless 
-                  application deployment and management across diverse cloud and on-premises environments.
-                </p>
+                <a href="mailto:me@marcovasquez.com" class="contact-link">me@marcovasquez.com</a>
               </div>
 
             </li>
 
-            <li class="service-item">
+            <li class="contact-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Terraform Mastery</h4>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-                <p class="service-item-text">
-                  Proficient in leveraging Terraform to define and provision infrastructure as code, ensuring efficiency, consistency, and agility in the deployment process.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud Expertise</h4>
-
-                <p class="service-item-text">
-                  Backed by a repertoire of approximately 20 cloud certifications, I bring a wealth of knowledge in cloud platforms, ensuring that architecture and solutions align with best practices for security, scalability, and performance.
-                </p>
+                <a href="tel:+12133522795" class="contact-link">+506 8667-1271</a>
               </div>
 
             </li>
 
-            <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">IoT Integration</h4>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-                <p class="service-item-text">
-                  Extensive experience in working with IoT devices, seamlessly integrating them into the cloud ecosystem for enhanced data analytics, monitoring, and control.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Over-the-Air Updates</h4>
-
-                <p class="service-item-text">
-                  Implementing strategies for seamless and secure over-the-air updates to ensure devices and systems stay up-to-date with the latest enhancements and patches.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Big Data Architectures</h4>
-
-                <p class="service-item-text">
-                  Designed robust architectures for the efficient processing and streaming of large datasets to the cloud, ensuring optimal performance and data integrity.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine Learning Across Edge and Cloud</h4>
-
-                <p class="service-item-text">
-                  Specialized in developing and deploying machine learning models, both on edge devices and cloud environments, to enable intelligent decision-making and automation.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Full-Stack Proficiency</h4>
-
-                <p class="service-item-text">
-                  Bridging the gap between frontend and backend development, I am well-versed in web development, crafting user-friendly interfaces and scalable backend systems.
-                </p>
+                <address>San Jose, CR</address>
               </div>
 
             </li>
 
           </ul>
 
-        </section>
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/marco-v%C3%A1squez-e-22bb153b/"
+                class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.kaggle.com/marcovasquez" class="social-link">
+                <iconify-icon icon="devicon:kaggle-wordmark"></iconify-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </aside>
+
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Certifications</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+
 
 
         <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a seasoned Developer Lead and Machine Learning Cloud Engineer
+              with a passion for crafting innovative solutions at the
+              intersection
+              of cutting-edge technologies. Over 13+ years experienced, I have
+              honed my skills in orchestrating cloud environments, implementing
+              robust Kubernetes
+              setups, and leveraging both on-premises and cloud infrastructure.
+            </p>
+
+            <p>
+              My expertise extends to various open-source technologies, and I
+              thrive in dynamic, collaborative environments where I can push the
+              boundaries
+              of what's possible.
+            </p>
+          </section>
+
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                    " alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Kubernetes and Cloud
+                    Orchestration</h4>
+
+                  <p class="service-item-text">
+                    Spearheading the design and implementation of scalable and
+                    resilient Kubernetes clusters for seamless
+                    application deployment and management across diverse cloud
+                    and on-premises environments.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development
+                    icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Terraform Mastery</h4>
+
+                  <p class="service-item-text">
+                    Proficient in leveraging Terraform to define and provision
+                    infrastructure as code, ensuring efficiency, consistency,
+                    and agility in the deployment process.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud Expertise</h4>
+
+                  <p class="service-item-text">
+                    Backed by a repertoire of approximately 20 cloud
+                    certifications, I bring a wealth of knowledge in cloud
+                    platforms, ensuring that architecture and solutions align
+                    with best practices for security, scalability, and
+                    performance.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">IoT Integration</h4>
+
+                  <p class="service-item-text">
+                    Extensive experience in working with IoT devices, seamlessly
+                    integrating them into the cloud ecosystem for enhanced data
+                    analytics, monitoring, and control.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Over-the-Air Updates</h4>
+
+                  <p class="service-item-text">
+                    Implementing strategies for seamless and secure over-the-air
+                    updates to ensure devices and systems stay up-to-date with
+                    the latest enhancements and patches.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Big Data Architectures</h4>
+                  <p class="service-item-text">
+                    Designed robust architectures for the efficient processing
+                    and streaming of large datasets to the cloud, ensuring
+                    optimal performance and data integrity.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning Across Edge
+                    and Cloud</h4>
+
+                  <p class="service-item-text">
+                    Specialized in developing and deploying machine learning
+                    models, both on edge devices and cloud environments, to
+                    enable intelligent decision-making and automation.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full-Stack Proficiency</h4>
+                  <p class="service-item-text">
+                    Bridging the gap between frontend and backend development, I
+                    am well-versed in web development, crafting user-friendly
+                    interfaces and scalable backend systems.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+
+          <!--
           - testimonials
         -->
 
-        <!-- <section class="testimonials">
+          <!-- <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -448,786 +482,1140 @@
           </ul>
 
         </section> -->
-
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <!-- <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
 
-          <div class="overlay" data-overlay></div>
+            <div class="overlay" data-overlay></div>
 
-          <section class="testimonials-modal">
+            <section class="testimonials-modal">
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis"
+                    width="80" data-modal-img>
+                </figure>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
               </div>
 
-            </div>
+              <div class="modal-content">
 
-          </section>
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <time datetime="2021-06-14">14 June, 2021</time>
 
-        </div> -->
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+
+            </section>
+
+          </div>
 
 
-        <!--
+          <!--
           - clients
         -->
 
-        <section class="clients">
+          <section class="clients">
 
-          <h3 class="h3 clients-title">Clouds</h3>
+            <h3 class="h3 clients-title">Clouds</h3>
 
-          <ul class="clients-list has-scrollbar">
+            <ul class="clients-list has-scrollbar">
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/aaws.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/azure.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/gcp.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/oracle.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/aaws.png" alt="client logo">
+                </a>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web design</button>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/azure.png" alt="client logo">
+                </a>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/gcp.png" alt="client logo">
+                </a>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/oracle.png" alt="client logo">
+                </a>
               </li>
 
             </ul>
 
-          </div>
+          </section>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
+        </article>
 
 
 
 
 
-      <!--
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Tecnológico de Costa Rica</h4>
+                <span>2007 — 2012</span>
+
+                <p class="timeline-text">
+                  Licentiate degree, Electrical and Electronics
+                  EngineeringLicentiate degree, Electrical and Electronics
+                  Engineering
+
+                  University degree accredited by the Canadian Engineering
+                  Accreditation Board (CEAB).
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Edureka Alumni</h4>
+
+                <span>2019 — 2019</span>
+
+                <p class="timeline-text">
+                  Data Scientist Masters ProgramData Scientist Masters Program
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Tecnológico de Costa Rica</h4>
+                <span>2009 — 2011</span>
+
+                <p class="timeline-text">
+                  Graduate, Networking TechnicianGraduate, Networking Technician
+                  CCNA 1: Basics in computer networks , CCNA 2: Basics in
+                  routing, CCNA 3: Switching and routing, CCNA 4: WAN
+                  Technologies, CCNP 2: Remote Access
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Wind River - Lead Cloud
+                  Machine Learning EngineerLead Cloud Machine Learning Engineer</h4>
+                <span> July 2022 — Present</span>
+
+
+                <p class="timeline-text">• Spearheaded OTA (Over-the-Air)
+                  updates for IoT devices, ensuring seamless and secure firmware
+                  upgrades.</p>
+
+                <p class="timeline-text">• Specialized in AWS, leveraging cloud
+                  services to optimize device performance and scalability.</p>
+                <p class="timeline-text">• Played a key role in developing
+                  cloud-agnostic strategies, ensuring flexibility and
+                  compatibility across diverse cloud platforms.</p>
+
+                <p class="timeline-text">• Demonstrated expertise in leveraging
+                  AWS services for efficient data management, storage, and
+                  analysis in IoT applications.</p>
+
+                <p class="timeline-text">• Actively engaged in technology
+                  innovation, staying abreast of the latest advancements in IoT
+                  and cloud computing.</p>
+
+                <p class="timeline-text">• Collaborated with cross-functional
+                  teams to design and implement secure, reliable, and scalable
+                  IoT solutions.</p>
+
+                <p class="timeline-text">• Participating / owning end to end
+                  installation, development, delivery, operations,
+                  prioritization, and backlog of HashiCorp Vault.</p>
+
+                <p class="timeline-text">• Connect tools to track CVE, analyze
+                  code for security vulnerabilities, and limit third-party
+                  vulnerabilities.</p>
+
+                <p class="timeline-text">• Serve as key leader and expert on
+                  DevOps practices.</p>
+
+                <p class="timeline-text">• Lead the design and development of
+                  technical solutions for frontend applications, IoT
+                  Applications monitoring solutions and ML solutions.</p>
+
+                <p class="timeline-text">• Visualizing data for deeper insights.</p>
+                <p class="timeline-text">• Designing, developing, and
+                  researching Machine Learning systems, models, and schemas.</p>
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Wind River - Data Scientist
+                  and Cloud Specialist</h4>
+
+                <span>2021 — July 2022 </span>
+
+                <p class="timeline-text">• Develop and coordinate cloud
+                  architecture of IoT applications for predictive quality,
+                  maintenance, and remote operation.</p>
+
+                <p class="timeline-text">• Implementation of Secure IoT device
+                  connections and data with mutual authentication and end-to-end
+                  encryption, using different provisioning/deprovisioning
+                  methods in AWS and Azure.</p>
+
+                <p class="timeline-text">• Streaming large amounts of data to
+                  the cloud for further analysis and visualization in real-time
+                  and batch processing.</p>
+
+                <p class="timeline-text">• Design, build & maintain large scale
+                  high performing, streaming application platform infrastructure
+                  on AWS. </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">EY - Data Scientist</h4>
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  • Supported a national (South America) tax authority to define
+                  their initial steps towards deploying a Data Governance Office
+                  (organizational structure, data domain definition and other
+                  key concepts).
+                </p>
+
+                <p class="timeline-text">
+                  • Involved in the design and development Azure Data Factory
+                  ETL solutions for data integration and processing. </p>
+
+                <p class="timeline-text">
+                  • Customer Segmentation at Centro America Bank with Machine
+                  Learning models. </p>
+
+                <p class="timeline-text">
+                  • Recommendation and implementation of various Cloud
+                  Architectures for data migration, analytics & Big Data and ML
+                  to the cloud
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">VM Prime Data - Data
+                  Scientist & Cloud Engineer</h4>
+
+                <span>2018 — 2020</span>
+
+                <p class="timeline-text">
+                  • Conducted extensive research on revenue management and
+                  pricing analytics in the eCommerce sector in the cloud
+                </p>
+                <p class="timeline-text">
+                  • Applied various machine learning techniques to build dynamic
+                  pricing models and maximize profits
+                </p>
+                <p class="timeline-text">
+                  • Responsible for loading unstructured and semi-structured
+                  data into a Data Lake solution. Implementation considered the
+                  configuration of jobs in AWS GLUE for data processing data
+                  using Spark.
+                </p>
+                <p class="timeline-text">
+                  • Developed data transformation routines (ETL) to load data
+                  into MySQL. Associated efforts included data preparation for
+                  machine learning exploitation.
+                </p>
+                <p class="timeline-text">
+                  • Designed and implemented data pipelines using Kafka and
+                  Kinesis. External systems (social networks and websites)
+                  generated real-time data that was sent to Splunk and a data
+                  warehouse solution for future processing. Target systems
+                  included S3, MySQL and BigQuery
+                </p>
+                <p class="timeline-text">
+                  • Designed and built a data pipeline using Delta Lake and
+                  Azure Databricks that aimed to optimize an existing process
+                  (efficiency objective)
+                </p>
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Computer and Network
+                  Solutions LTD - Software Engineer</h4>
+
+                <span>2013 — 2018</span>
+
+                <p class="timeline-text">
+                  • Supported a national (South America) tax authority to define
+                  their initial steps towards deploying a Data Governance Office
+                  (organizational structure, data domain definition and other
+                  key concepts).
+                </p>
+                <p class="timeline-text">
+                  • Reseller IT products
+                </p>
+                <p class="timeline-text">
+                  • Suggesting and recommending IT products depends of customers
+                  needs for provide a good balance of power, performance and
+                  cost.
+                </p>
+                <p class="timeline-text">
+                  • Deployed multiple front end web application frameworks to
+                  lead the design, execution & enhancement of the UI
+                </p>
+                <p class="timeline-text">
+                  • Led a team of 5 developers to spearhead development of web
+                  applications
+                </p>
+                <p class="timeline-text">
+                  • Developed web applications leveraging Django and node.js
+                </p>
+                <p class="timeline-text">
+                  • Developed dashboards to monitor sales conversions (marketing
+                  funnel) using Docker and Kubernetes.
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Tecnológico de Costa Rica -
+                  Networking Technical Assistant</h4>
+
+                <span>2007 — 2011</span>
+
+                <p class="timeline-text">
+                  • Provides technical assistance and training to students
+                </p>
+                <p class="timeline-text">
+                  • Instruct students within the standard to ensure a complete
+                  solution to their support questions.
+                </p>
+                <p class="timeline-text">
+                  • Handled Cisco routers and switches.
+                </p>
+                <p class="timeline-text">
+                  • Managed networking, hardware and software support.
+                </p>
+                <p class="timeline-text">
+                  • Install and configures network system based on Cisco Network
+                  courses
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">AWS</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GCP</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Azure</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Kubernetes</h5>
+                  <data value="95">95%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Terraform</h5>
+                  <data value="90">95%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Big Data Ecosystem</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Deep Learning Frameworks</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+
+
+
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="certifications" data-page="certifications">
+
+          <header>
+            <h2 class="h2 article-title">Certifications</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="filter-list">
+
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>AWS</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Azure</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>GCP</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Others</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+
+              <button class="filter-select" data-select>
+
+                <div class="select-value" data-selecct-value>Select category</div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+
+              </button>
+
+              <ul class="select-list">
+
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>aws</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>azure</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>gcp</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>others</button>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item active" data-filter-item
+                data-category="gcp">
+                <a
+                  href="https://www.credential.net/8e8f33cf-ded5-48ed-821c-9791ca5aad96?key=5ef6317624e9ae687d90104c2a44397a909969551dc53ab191ba30e9162aadec">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/gcpA.png" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Professional Cloud Architect</h3>
+
+                  <p class="project-category">gcp</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="gcp">
+                <a
+                  href="https://www.credential.net/5d00cd7b-24a0-4144-ad70-1a44e088283b">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/gcpda.png" alt="orizon"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Professional Data Engineer</h3>
+
+                  <p class="project-category">gcp</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="aws">
+                <a
+                  href="https://www.credly.com/badges/5ef0ba40-bbe1-4961-880e-61eaf756c888">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/practitioner.png" alt="fundo"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">AWS Certified Cloud Practitioner</h3>
+                  <p class="project-category">aws</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="azure">
+                <a
+                  href="https://www.credly.com/badges/feaef0cd-b8c2-432a-814f-6830c32be210">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/di.png" alt="task manager"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Microsoft Certified: Azure Data
+                    Engineer Associate</h3>
+
+                  <p class="project-category">azure</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="others">
+                <a
+                  href="https://www.credly.com/badges/5338e2d3-8e42-49d1-8639-a1d734fa353a">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/terraform.png" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">HashiCorp Certified: Terraform
+                    Associate (002)</h3>
+
+                  <p class="project-category">others</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="aws">
+                <a
+                  href="https://www.credly.com/badges/14b8ae14-2a21-4776-9c3c-61760803ba69">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/da.png" alt="fundo"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">AWS Certified Data Analytics –
+                    Specialty</h3>
+
+                  <p class="project-category">aws</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="aws">
+                <a
+                  href="https://www.credly.com/badges/acc36fe0-fce1-47b2-88c9-4640380c5423">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/bd.png" alt="fundo"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">AWS Certified Big Data – Specialty</h3>
+                  <p class="project-category">aws</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="azure">
+                <a
+                  href="https://www.credly.com/badges/81c43ff5-1d09-4c2d-b02d-0e0285d79ba6">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/azf.png" alt="brawlhalla"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Microsoft Certified: Azure
+                    Fundamentals</h3>
+
+                  <p class="project-category">azure</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="others">
+                <a
+                  href="https://www.credly.com/badges/1292c423-e79a-48c9-9c57-253ab9f04725">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/vault.png" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">HashiCorp Certified: Vault Associate
+                    (002)</h3>
+
+                  <p class="project-category">others</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="aws">
+                <a
+                  href="https://www.credly.com/badges/ac287274-1e35-4ec4-90d5-497761aaa4fb">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/sa-aws.png" alt="dsm."
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">AWS Certified Solutions Architect –
+                    Associate</h3>
+
+                  <p class="project-category">aws</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="aws">
+                <a
+                  href="https://www.credly.com/badges/19f36187-7e53-4f0f-8467-5d66280e0af4">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/developer.png" alt="metaspark"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">AWS Certified Developer – Associate</h3>
+                  <p class="project-category">aws</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="others">
+                <a
+                  href="https://www.credly.com/badges/5a3ec8c1-3328-4e84-ae8d-ce497ac19418">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/splunk.png" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Splunk Core Certified User</h3>
+
+                  <p class="project-category">others</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="azure">
+                <a
+                  href="https://www.credly.com/badges/f6403d34-a539-4116-94af-56a6f6dfc0b1">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/aiz.png" alt="task manager"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Microsoft Certified: Azure AI
+                    Fundamentals</h3>
+
+                  <p class="project-category">azure</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="aws">
+                <a
+                  href="https://www.credly.com/badges/9e0f5848-ff9c-4b97-811b-004290bcb976">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/ml.png" alt="metaspark"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">AWS Certified Machine Learning –
+                    Specialty</h3>
+
+                  <p class="project-category">aws</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="gcp">
+                <a
+                  href="https://www.credential.net/ae7ca1ce-5bd9-42df-ba5c-359e11b48a82">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/gcp1.png" alt="summary"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Associate Cloud Engineer</h3>
+
+                  <p class="project-category">gcp</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="azure">
+                <a
+                  href="https://www.credly.com/badges/26dae7ae-dc29-4cfb-8c5b-65ffe085fa0c">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/azdf.png" alt="task manager"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Microsoft Certified: Azure Data
+                    Fundamentals</h3>
+
+                  <p class="project-category">azure</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="azure">
+                <a
+                  href="https://www.credly.com/badges/dbbfa6c8-c2eb-4e19-a1fa-ffe2557403f3">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/aiAzure.png" alt="task manager"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Microsoft Certified: Azure AI
+                    Engineer Associate</h3>
+
+                  <p class="project-category">azure</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="others">
+                <a
+                  href="https://www.credly.com/badges/661e0aa6-6dab-423b-8f22-04650e1fc85f">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/scrum.png" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Scrum Foundation Professional
+                    Certification - SFPC</h3>
+
+                  <p class="project-category">others</p>
+
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item
+                data-category="others">
+                <a
+                  href="https://www.credly.com/badges/59035dfe-4f77-4c23-813d-1dc1ddcbac72">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/oraclecert.png" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Oracle Cloud Infrastructure
+                    Foundations 2020 Certified Associate</h3>
+
+                  <p class="project-category">others</p>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+
+
+
+
+        <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+        <article class="blog" data-page="blog">
 
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
 
-        <section class="blog-posts">
+          <section class="blog-posts">
 
-          <ul class="blog-posts-list">
+            <ul class="blog-posts-list">
 
-            <li class="blog-post-item">
-              <a href="#">
+              <li class="blog-post-item">
+                <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="Design
+                      conferences in 2022" loading="lazy">
+                  </figure>
 
-                <div class="blog-content">
+                  <div class="blog-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
 
-                    <span class="dot"></span>
+                      <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                </a>
+              </li>
 
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
+              <li class="blog-post-item">
+                <a href="#">
 
-                </div>
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-2.jpg" alt="Best fonts every
+                      designer" loading="lazy">
+                  </figure>
 
-              </a>
-            </li>
+                  <div class="blog-content">
 
-            <li class="blog-post-item">
-              <a href="#">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
+                      <span class="dot"></span>
 
-                <div class="blog-content">
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
 
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                </a>
+              </li>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
 
-                </div>
+            </ul>
 
-              </a>
-            </li>
+          </section>
 
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
+        </article>
 
 
 
 
 
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <section class="mapbox" data-mapbox>
+          <!-- <section class="mapbox" data-mapbox>
           <figure>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
-        </section>
+        </section> -->
+          <section class="contact-form">
 
-        <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-          <h3 class="h3 form-title">Contact Form</h3>
+            <form action="#" class="form" data-form>
 
-          <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input"
+                  placeholder="Full name" required data-form-input>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input"
+                  placeholder="Email address" required data-form-input>
+              </div>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+              <textarea name="message" class="form-input" placeholder="Your
+                Message" required data-form-input></textarea>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+            </form>
 
-          </form>
+          </section>
 
-        </section>
+        </article>
 
-      </article>
+      </div>
 
-    </div>
-
-  </main>
-
-
-
-
+    </main>
 
 
-  <!--
+
+
+
+
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-
-</body>
+    <script type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 
 </html>
